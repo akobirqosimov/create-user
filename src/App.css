@@ -1,0 +1,26 @@
+.modal__btn {
+  position: fixed;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%) translateX(-20%) rotate(-90deg);
+  font-size: 1.3rem;
+  padding: 0.3rem 1rem;
+  background-color: darkblue;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+
+.modal__btn:active {
+  scale: 0.91;
+}
+
+.imti__img {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+.imti__img img {
+  height: 100%;
+}
